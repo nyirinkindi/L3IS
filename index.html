@@ -4,10 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="shortcut icon" href="./media/images/favico.png" type="image/x-icon">
     <title>Student - Registartion form</title>
 </head>
 <body>
-   
+    <form>
+        <header>
+            <h2>Student - Registartion form</h2>
+        </header>
+        <label id="fam">Personal details</label>
+        <div class="grid-container">
+        <div class="grid">
+            <label>First Name</label>
+            <input type="text" required>
+        </div>
+        <div class="grid">
+            <label>Last Name</label>
+            <input type="text" required>
+        </div>
+        <div class="grid">
+            <label>Email</label>
+            <input type="email" required>
+        </div>
+        <div class="grid">
+            <label>Date of birth</label>
+            <input type="date" required>
+        </div>
+        <div class="grid">
+            <label>Tel</label>
+            <input type="tel" required>
+        </div>
+        <div class="grid">
+            <label>Sex</label>
+            <input type="radio" required name="sex"><span>Male</span>
+            <input type="radio" required name="sex" id="female1"><span id="female">Female</span>
+        </div>
+    </div>
+    <label id="fam">Family</label>
+    <div class="grid-container">
+        <div class="grid">
+        <label>Father's Names</label>
+        <input type="text" required>
+    </div>
+        <div class="grid">
+        <label>Tel</label>
+        <input type="tel" required>
+    </div>
+    <div class="grid">
+        <label>Mother's Names</label>
+        <input type="text" required>
+    </div>
+    <div class="grid">
+        <label>Tel</label>
+        <input type="tel" required>
+    </div>
+    <div class="grid">
+        <label>Guardian's Names</label>
+        <input type="text" required>
+    </div>
+    <div class="grid">
+        <label>Tel</label>
+        <input type="tel" required>
+    </div>
+    <div class="grid">
+        <label>Others</label>
+        <input type="text">
+    </div>
+    <div class="grid">
+        <label>Tel</label>
+        <input type="tel">
+    </div>
+</div>
+<label id="fam">Address</label>
+<div class="grid-container">
+    <div class="grid">
+        <label>Country</label>
+        <input type="text" required>
+    </div>
+    <div class="grid">
+        <label>Province/City</label>
+        <input type="text" required>
+    </div>
+    <div class="grid">
+        <label>District</label>
+        <input type="text" required>
+    </div>
+    <div class="grid">
+        <label>Street</label>
+        <input type="text" required>
+    </div>
+    </div>
+</form>
 </body>
 </html>
