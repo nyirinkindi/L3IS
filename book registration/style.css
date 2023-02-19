@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Helvetica', sans-serif;
+}
+
+body{
+	background: #000;
+	color: #fff;
+}
+
+.form{
+	margin: 50px 500px 0px;
+	border: 1px solid #fff;
+	padding: 40px;
+}
+
+.form h1{
+	padding-bottom: 30px;
+}
+
+.form p{
+	padding: 10px 0px;
+	font-weight: 401;
+	font-size: 20px;
+}
+
+.form input {
+	padding: 10px;
+	border: none;
+}
