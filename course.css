@@ -1,0 +1,120 @@
+*{
+	font-family: monospace;
+}
+
+
+.container{
+	background-color: #f7f7f7;
+	height: auto;
+
+	border: 1px solid blown;
+    
+}
+form{
+padding-top: 5%;
+
+width: 100%;
+height: 800px;
+display: flex;
+position: relative;
+flex-direction: column;
+margin-bottom: 10px;
+
+}
+
+
+
+.header {
+	text-align: center;
+	text-transform: capitalize;
+	color: fade;
+}
+
+
+
+/*.form form .name-details .field:first-child{
+margin-right: 10px;
+}
+.form form .name-details .field:last-child{
+margin-left: 10px;
+
+transform: translateY(-50%);}
+.form .field i.active::before{
+content: "\f070";
+color: #333;
+}
+.form .field i{
+	position: absolute;
+	right: 15px;
+	color: #ccc;
+	top: 70%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}*/
+.row{
+	display: flex;
+}
+
+.col-sm-4{
+	display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5%;
+    left: 24%;
+}
+#inputbox input{
+    margin-top: 20px;
+    width: 43vw;
+    height: 40px;
+
+}
+.in1{
+	border-bottom: 2px solid black;
+	width: 43vw;
+}
+.in1 input{
+	background: transparent;
+	border: 0px;
+	outline: none;
+}
+.in2{
+	border-bottom: 2px solid black;
+	width: 43vw;
+}
+.in2 input{
+	background: transparent;
+	border: 0px;
+	outline: none;
+}
+.in3{
+	border-bottom: 2px solid black;
+	width: 43vw;
+}
+.in3 input{
+	background: transparent;
+	border: 0px;
+	outline: none;
+}
+#label{
+	margin-top: 30px;
+}
+#option{
+	width: 20vw;
+}
+.checkbox label{
+	display: flex;
+	margin-left: 27%;
+}
+.checkbox button{
+	margin-left: 34%;
+	width: 200px;
+	padding: 5px;
+	border-radius: 60px;
+	background-color:  #111;
+	color: white;
+	transition: 2s;
+}
+.checkbox button:hover{
+	transform: scale(1.1);
+	background-color: cornflowerblue;
+}
